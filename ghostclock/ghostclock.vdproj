@@ -15,169 +15,175 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0052999D2E95452B871B2D98F729558E"
+        "MsmKey" = "8:_05A1E6337D2D438CB82FA0CCEC67310A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_011E2E8E91F54DF7BF0C737249F5320B"
+        "MsmKey" = "8:_0993BEFCAC284042AAF7AEA204328A16"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0A8BDC285A7449C2B459F3D681C3116F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_24599238DCEE478DA596F41E3C1B3976"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2B8411ACA11F428BA8DEF3B218953EFC"
+        "MsmKey" = "8:_210D1A8336EE4AF49EADFFB91B2D0DC1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_300B33BEDEE6ED16794FF3C2982C2D0B"
-        "OwnerKey" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+        "OwnerKey" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_427D1147B68F4C66BB546ADFFD50F5A2"
+        "MsmKey" = "8:_3961815A4D4A4CDEA2E737204F480F5F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4A1585D35E394A5C9570C749F01F21A6"
+        "MsmKey" = "8:_55D0BC898D9A457FBC426CD7CBA2C0EC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5574C03FFA9649569C6A12F1F2181E44"
+        "MsmKey" = "8:_580112716ABD4781B5D2703E2DE05CF7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_564849F6D9F744D6834417E81B19CCB0"
+        "MsmKey" = "8:_5C6A396BB1A546D98ABD45FEE362AB48"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_59F775CEDAFE49FC8A8FA3CA44F84E86"
+        "MsmKey" = "8:_6C867E63CE0C4036A1FE991EFF64043A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_6FE53D74FE67798562D6B11D394E9D86"
-        "OwnerKey" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+        "OwnerKey" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_73E0F38E897D41D698A8ACFC0248A86F"
+        "MsmKey" = "8:_712BA81538BD4D478B5081FC88924BBE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_761D2395F53641689FFC76BC34B3FB2E"
+        "MsmKey" = "8:_743F7AE4857C44CDBF3B613BFD4B5729"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7CFC8FA44C12491682885CFAC5BD2926"
+        "MsmKey" = "8:_7D7B0F9E310242CFA520D6CAC695E10B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8F585771D47B438599C29436876DEC5C"
+        "MsmKey" = "8:_872358B95F5C4032A10FD54089542481"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_939494E119CB44E29C2629F59AABE325"
+        "MsmKey" = "8:_9748F956305945579339C8BE163F9390"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+        "MsmKey" = "8:_99CB0D6AFFD04686B78C8F49A521BF32"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9FFA368AE30D41CA91FC156B139601A7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A9CDFA1717FD4938A661412CA1D6C4F6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_AF4014F793DDCFE461B74139200A76D8"
-        "OwnerKey" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+        "OwnerKey" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BD752EE5C9BC4A59AF0586004CC93331"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C4AB3CB159C04B1092228627F9FBCF45"
+        "MsmKey" = "8:_B2601E68307245E08BCE8F2BF8C6F4DB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C72003B0072A19DBCCBEADCD9E6B0B5E"
-        "OwnerKey" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+        "OwnerKey" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D6131CE9BB71406D87C54ECF25337C53"
+        "MsmKey" = "8:_D786B6C46F434A23BB4BC3A8C3E1B69B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DDE74C572ED443C1B5C1DF77DB01F00B"
+        "MsmKey" = "8:_DAE6F6DED4464802AE06DE60CC5B9BC6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E751C12334714AA3B60D2AE5A672BF20"
+        "MsmKey" = "8:_E64BBEC280D743018246DA89769FD3C7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E76E78C4135E4B72B86066020F303F21"
+        "MsmKey" = "8:_EA2B4986A0894FC99B6027582505D9F9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EEEA35EAA0034B019F45C3338463117F"
+        "MsmKey" = "8:_EB05D1E4AC4C4B6784E2BC5EAC84C4ED"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_FA1F706F5F3A4157BC5E7FBF29EA49CA"
+        "MsmKey" = "8:_ED472FB0167A41C1A9B74502C281AF9F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EEACF2831C65406CA6111C9D3FB86B7B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -199,6 +205,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -215,6 +237,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -236,67 +274,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0052999D2E95452B871B2D98F729558E"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj.user"
-            "TargetName" = "8:ghostclock❀.vcxproj.user"
-            "Tag" = "8:"
-            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_011E2E8E91F54DF7BF0C737249F5320B"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.log"
-            "TargetName" = "8:ghostclock❀.log"
-            "Tag" = "8:"
-            "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0A8BDC285A7449C2B459F3D681C3116F"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.secondary.1.tlog"
-            "TargetName" = "8:link.secondary.1.tlog"
-            "Tag" = "8:"
-            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24599238DCEE478DA596F41E3C1B3976"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_05A1E6337D2D438CB82FA0CCEC67310A"
             {
             "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.exe.recipe"
             "TargetName" = "8:ghostclock❀.exe.recipe"
@@ -316,12 +294,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2B8411ACA11F428BA8DEF3B218953EFC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0993BEFCAC284042AAF7AEA204328A16"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.command.1.tlog"
-            "TargetName" = "8:link.command.1.tlog"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.read.1.tlog"
+            "TargetName" = "8:link.read.1.tlog"
             "Tag" = "8:"
             "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_210D1A8336EE4AF49EADFFB91B2D0DC1"
+            {
+            "SourcePath" = "8:E:\\小仓库\\text\\键盘ASCII码对应表.png"
+            "TargetName" = "8:键盘ASCII码对应表.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -356,12 +354,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_427D1147B68F4C66BB546ADFFD50F5A2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3961815A4D4A4CDEA2E737204F480F5F"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj.filters"
-            "TargetName" = "8:ghostclock❀.vcxproj.filters"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.ilk"
+            "TargetName" = "8:ghostclock❀.ilk"
             "Tag" = "8:"
-            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
+            "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -376,30 +374,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4A1585D35E394A5C9570C749F01F21A6"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_55D0BC898D9A457FBC426CD7CBA2C0EC"
             {
-            "SourcePath" = "8:C:\\Users\\123\\Desktop\\键盘ASCII码对应表.png"
-            "TargetName" = "8:键盘ASCII码对应表.png"
-            "Tag" = "8:"
-            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5574C03FFA9649569C6A12F1F2181E44"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.read.1.tlog"
-            "TargetName" = "8:link.read.1.tlog"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\ghostclock❀.lastbuildstate"
+            "TargetName" = "8:ghostclock❀.lastbuildstate"
             "Tag" = "8:"
             "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
             "Condition" = "8:"
@@ -416,12 +394,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_564849F6D9F744D6834417E81B19CCB0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_580112716ABD4781B5D2703E2DE05CF7"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\Cl.items.tlog"
-            "TargetName" = "8:Cl.items.tlog"
+            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj.user"
+            "TargetName" = "8:ghostclock❀.vcxproj.user"
             "Tag" = "8:"
-            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -436,10 +414,30 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_59F775CEDAFE49FC8A8FA3CA44F84E86"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5C6A396BB1A546D98ABD45FEE362AB48"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\vc143.idb"
-            "TargetName" = "8:vc143.idb"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.obj"
+            "TargetName" = "8:ghostclock❀.obj"
+            "Tag" = "8:"
+            "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C867E63CE0C4036A1FE991EFF64043A"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.vcxproj.FileListAbsolute.txt"
+            "TargetName" = "8:ghostclock❀.vcxproj.FileListAbsolute.txt"
             "Tag" = "8:"
             "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
             "Condition" = "8:"
@@ -476,50 +474,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_73E0F38E897D41D698A8ACFC0248A86F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_712BA81538BD4D478B5081FC88924BBE"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\ghostclock❀.lastbuildstate"
-            "TargetName" = "8:ghostclock❀.lastbuildstate"
-            "Tag" = "8:"
-            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_761D2395F53641689FFC76BC34B3FB2E"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\CL.write.1.tlog"
-            "TargetName" = "8:CL.write.1.tlog"
-            "Tag" = "8:"
-            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CFC8FA44C12491682885CFAC5BD2926"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj"
-            "TargetName" = "8:ghostclock❀.vcxproj"
+            "SourcePath" = "8:E:\\小仓库\\text\\bitbug_favicon.ico"
+            "TargetName" = "8:bitbug_favicon.ico"
             "Tag" = "8:"
             "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
@@ -536,10 +494,30 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8F585771D47B438599C29436876DEC5C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_743F7AE4857C44CDBF3B613BFD4B5729"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.write.1.tlog"
-            "TargetName" = "8:link.write.1.tlog"
+            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj.filters"
+            "TargetName" = "8:ghostclock❀.vcxproj.filters"
+            "Tag" = "8:"
+            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7D7B0F9E310242CFA520D6CAC695E10B"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\Cl.items.tlog"
+            "TargetName" = "8:Cl.items.tlog"
             "Tag" = "8:"
             "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
             "Condition" = "8:"
@@ -556,12 +534,92 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_939494E119CB44E29C2629F59AABE325"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_872358B95F5C4032A10FD54089542481"
             {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.ilk"
-            "TargetName" = "8:ghostclock❀.ilk"
+            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.cpp"
+            "TargetName" = "8:ghostclock❀.cpp"
+            "Tag" = "8:"
+            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9748F956305945579339C8BE163F9390"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.secondary.1.tlog"
+            "TargetName" = "8:link.secondary.1.tlog"
+            "Tag" = "8:"
+            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_99CB0D6AFFD04686B78C8F49A521BF32"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\CL.read.1.tlog"
+            "TargetName" = "8:CL.read.1.tlog"
+            "Tag" = "8:"
+            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9FFA368AE30D41CA91FC156B139601A7"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\vc143.idb"
+            "TargetName" = "8:vc143.idb"
             "Tag" = "8:"
             "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A9CDFA1717FD4938A661412CA1D6C4F6"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\CL.write.1.tlog"
+            "TargetName" = "8:CL.write.1.tlog"
+            "Tag" = "8:"
+            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -596,32 +654,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD752EE5C9BC4A59AF0586004CC93331"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B2601E68307245E08BCE8F2BF8C6F4DB"
             {
             "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\vc143.pdb"
             "TargetName" = "8:vc143.pdb"
             "Tag" = "8:"
             "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C4AB3CB159C04B1092228627F9FBCF45"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.cpp"
-            "TargetName" = "8:ghostclock❀.cpp"
-            "Tag" = "8:"
-            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -656,10 +694,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D6131CE9BB71406D87C54ECF25337C53"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D786B6C46F434A23BB4BC3A8C3E1B69B"
             {
-            "SourcePath" = "8:C:\\Users\\123\\Desktop\\33\\vcruntime140d.dll"
-            "TargetName" = "8:vcruntime140d.dll"
+            "SourcePath" = "8:..\\ghostclock❀\\key_codes.txt"
+            "TargetName" = "8:key_codes.txt"
             "Tag" = "8:"
             "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
@@ -676,50 +714,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDE74C572ED443C1B5C1DF77DB01F00B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DAE6F6DED4464802AE06DE60CC5B9BC6"
             {
-            "SourcePath" = "8:C:\\Users\\123\\Desktop\\33\\ucrtbased.dll"
-            "TargetName" = "8:ucrtbased.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E751C12334714AA3B60D2AE5A672BF20"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\CL.read.1.tlog"
-            "TargetName" = "8:CL.read.1.tlog"
-            "Tag" = "8:"
-            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E76E78C4135E4B72B86066020F303F21"
-            {
-            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.obj"
-            "TargetName" = "8:ghostclock❀.obj"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.log"
+            "TargetName" = "8:ghostclock❀.log"
             "Tag" = "8:"
             "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
             "Condition" = "8:"
@@ -736,7 +734,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EEEA35EAA0034B019F45C3338463117F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E64BBEC280D743018246DA89769FD3C7"
             {
             "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\CL.command.1.tlog"
             "TargetName" = "8:CL.command.1.tlog"
@@ -756,10 +754,70 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA1F706F5F3A4157BC5E7FBF29EA49CA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EA2B4986A0894FC99B6027582505D9F9"
             {
-            "SourcePath" = "8:..\\..\\textAsl\\textA\\bitbug_favicon.ico"
-            "TargetName" = "8:bitbug_favicon.ico"
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.write.1.tlog"
+            "TargetName" = "8:link.write.1.tlog"
+            "Tag" = "8:"
+            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EB05D1E4AC4C4B6784E2BC5EAC84C4ED"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.tlog\\link.command.1.tlog"
+            "TargetName" = "8:link.command.1.tlog"
+            "Tag" = "8:"
+            "Folder" = "8:_F9AF9A3EF66B42F393277E520E78EEF3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED472FB0167A41C1A9B74502C281AF9F"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\x64\\Debug\\ghostclock❀.Build.CppClean.log"
+            "TargetName" = "8:ghostclock❀.Build.CppClean.log"
+            "Tag" = "8:"
+            "Folder" = "8:_5D51938B644643C5A4A1197D6063B737"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EEACF2831C65406CA6111C9D3FB86B7B"
+            {
+            "SourcePath" = "8:..\\ghostclock❀\\ghostclock❀.vcxproj"
+            "TargetName" = "8:ghostclock❀.vcxproj"
             "Tag" = "8:"
             "Folder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
             "Condition" = "8:"
@@ -986,18 +1044,18 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_33BFD334E5CF4B549CEE193084B46B12"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3A5D156D52B3493897852FD3BC311D80"
             {
-            "Name" = "8:花姐的小鬼钟❀"
+            "Name" = "8:❀小鬼钟❀"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_A4ADF267356143619DD46B28AEB6BA7B"
+            "Target" = "8:_A4D549F4B9CA42948B56E3BAD6B10632"
             "Folder" = "8:_4AC212A91A9644929033FE188D83098E"
             "WorkingFolder" = "8:_A2D7E14966164BCFB2432DF25B371BD5"
-            "Icon" = "8:_FA1F706F5F3A4157BC5E7FBF29EA49CA"
+            "Icon" = "8:_712BA81538BD4D478B5081FC88924BBE"
             "Feature" = "8:"
             }
         }
@@ -1399,7 +1457,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A4ADF267356143619DD46B28AEB6BA7B"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A4D549F4B9CA42948B56E3BAD6B10632"
             {
             "SourcePath" = "8:..\\x64\\Debug\\ghostclock❀.exe"
             "TargetName" = "8:"
