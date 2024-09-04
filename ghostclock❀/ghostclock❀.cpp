@@ -1,7 +1,8 @@
-#include <graphics.h>
+ï»¿#include <graphics.h>
 #include <ctime>
 #include <Windows.h>
 #include <iostream>
+#include <fstream>
 #include <string>
 using namespace std;
 
@@ -15,7 +16,9 @@ void drawTimer(int x, int y, int minutes, int seconds, int size) {
 }
 
 void showMessage(const TCHAR* message, int x, int y, int size) {
+    setbkcolor(BLACK);
     settextstyle(size, 0, _T("Consolas"));
+    settextcolor(LIGHTCYAN);
     outtextxy(x, y, message);
     Sleep(1000);
     setfillcolor(BLACK);
@@ -26,18 +29,29 @@ int main() {
     int activateKey;
     int resetKey;
 
-    cout << "ÇëÊäÈë¼¤»î¼üµÄASCIIÂë: ";
-    cin >> activateKey;
-
-    cout << "ÇëÊäÈëÖØÖÃ¼üµÄASCIIÂë: ";
-    cin >> resetKey;
+    ifstream input("key_codes.txt"); // ä»æ–‡ä»¶ä¸­è¯»å–æ¿€æ´»é”®å’Œé‡ç½®é”®çš„ASCIIç 
+    if (input.is_open()) {
+        input.ignore(100, ':');
+        input >> activateKey;
+        input.ignore(100, ':');
+        input >> resetKey;
+        input.close();
+    }
+    else {
+        cout << "æ— æ³•æ‰“å¼€æ–‡ä»¶";
+        return 1;
+    }
 
     initgraph(200, 150);
 
     HWND hwnd = GetHWnd();
-    LONG style = GetWindowLong(hwnd, GWL_EXSTYLE);
-    SetWindowLong(hwnd, GWL_EXSTYLE, style | WS_EX_LAYERED);
-    SetLayeredWindowAttributes(hwnd, RGB(0, 0, 0), 50, LWA_COLORKEY);  // ÉèÖÃ´°¿ÚÍ¸Ã÷
+    LONG style = GetWindowLong(hwnd, GWL_STYLE);
+    SetWindowLong(hwnd, GWL_STYLE, style & ~WS_CAPTION);  // è®¾ç½®çª—å£ä¸ºæ— æ ‡é¢˜æ 
+    SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE);  // å°†çª—å£ç½®é¡¶
+
+    LONG exStyle = GetWindowLong(hwnd, GWL_EXSTYLE);
+    SetWindowLong(hwnd, GWL_EXSTYLE, exStyle | WS_EX_LAYERED);
+    SetLayeredWindowAttributes(hwnd, RGB(0, 0, 0), 50, LWA_COLORKEY);  // è®¾ç½®çª—å£é€æ˜
 
     bool activated = false;
     bool tildeKeyPressed = false;
@@ -53,10 +67,10 @@ int main() {
             if (!tildeKeyPressed) {
                 activated = !activated;
                 if (activated) {
-                    showMessage(_T("ÒÑ¼¤»î"), 10, 100, 40);
+                    showMessage(_T("å·²æ¿€æ´»"), 10, 100, 40);
                 }
                 else {
-                    showMessage(_T("Î´¼¤»î"), 10, 100, 40);
+                    showMessage(_T("æœªæ¿€æ´»"), 10, 100, 40);
                 }
                 tildeKeyPressed = true;
             }
@@ -84,25 +98,25 @@ int main() {
             if (GetAsyncKeyState(resetKey) & 0x8000) {
                 if (timerStarted) {
                     timerStarted = false;
-                    showMessage(_T("ÖØÖÃºÃ¿©"), 10, 110, 40);
+                    showMessage(_T("é‡ç½®å¥½å’¯"), 10, 110, 40);
                 }
             }
 
             if (timerStarted) {
                 clock_t currentTime = clock();
-                int elapsedSeconds = static_cast<int>(((currentTime - startTime) / static_cast<double>(CLOCKS_PER_SEC)));
+                int elapsedSeconds = static_cast<int>((currentTime - startTime) / static_cast<double>(CLOCKS_PER_SEC));
                 seconds = elapsedSeconds % 60;
                 minutes = elapsedSeconds / 60;
                 drawTimer(10, 30, minutes, seconds, 80);
 
                 if (elapsedSeconds >= 180) {
                     timerStarted = false;
-                    showMessage(_T("µ½Èı·ÖÖÓ"), 10, 110, 40);
+                    showMessage(_T("åˆ°ä¸‰åˆ†é’Ÿ"), 10, 110, 40);
                     seconds = 0;
                     minutes = 0;
                     setfillcolor(BLACK);
-                    solidrectangle(10, 30, 100, 100); // Çå³ıÖ®Ç°µÄÊ±¼äÏÔÊ¾
-                    drawTimer(10, 30, minutes, seconds, 40);
+                    solidrectangle(10, 30, 100, 100); // æ¸…é™¤ä¹‹å‰çš„æ—¶é—´æ˜¾ç¤º
+                    drawTimer(10, 30, minutes, seconds, 80);
                 }
             }
         }
