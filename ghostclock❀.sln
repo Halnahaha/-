@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ghostclock❀", "ghostclock❀\ghostclock❀.vcxproj", "{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ghostclock", "ghostclock\ghostclock.vdproj", "{9F99796B-EEEB-4073-BE9A-64AD49C4A1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Debug|x64.ActiveCfg = Debug|x64
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Debug|x64.Build.0 = Debug|x64
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Debug|x86.Build.0 = Debug|Win32
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Release|x64.ActiveCfg = Release|x64
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Release|x64.Build.0 = Release|x64
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Release|x86.ActiveCfg = Release|Win32
+		{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}.Release|x86.Build.0 = Release|Win32
+		{9F99796B-EEEB-4073-BE9A-64AD49C4A1AB}.Debug|x64.ActiveCfg = Debug
+		{9F99796B-EEEB-4073-BE9A-64AD49C4A1AB}.Debug|x86.ActiveCfg = Debug
+		{9F99796B-EEEB-4073-BE9A-64AD49C4A1AB}.Release|x64.ActiveCfg = Release
+		{9F99796B-EEEB-4073-BE9A-64AD49C4A1AB}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33152B00-C763-4D99-964B-451BC4DC49FD}
+	EndGlobalSection
+EndGlobal
