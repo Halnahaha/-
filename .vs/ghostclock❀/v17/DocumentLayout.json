@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git_data_upload\\ghost_clock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}|ghostclock\u2740\\ghostclock\u2740.vcxproj|E:\\git_data_upload\\ghost_clock\\ghostclock\u2740\\ghostclock\u2740.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C49E2E37-541B-4FD2-AC61-3CA87912DCB6}|ghostclock\u2740\\ghostclock\u2740.vcxproj|solutionrelative:ghostclock\u2740\\ghostclock\u2740.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ghostclock\u2740.cpp",
+              "DocumentMoniker": "E:\\git_data_upload\\ghost_clock\\ghostclock\u2740\\ghostclock\u2740.cpp",
+              "RelativeDocumentMoniker": "ghostclock\u2740\\ghostclock\u2740.cpp",
+              "ToolTip": "E:\\git_data_upload\\ghost_clock\\ghostclock\u2740\\ghostclock\u2740.cpp",
+              "RelativeToolTip": "ghostclock\u2740\\ghostclock\u2740.cpp",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-04T09:51:33.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
