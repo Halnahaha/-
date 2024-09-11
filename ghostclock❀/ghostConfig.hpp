@@ -23,6 +23,9 @@ public:
     # 在下一行等号后面填写纵向窗口位置
     y = 10
 
+    # 在下一行等号后面填写大于0的整数或小数，如1表是默认窗口大小，0.5表示整体窗口和字体缩小一半，2表示两倍大小
+    scale = 1
+
 [key]
     # 在下一行等号后面填写激活按键的ASCII码
     toggleKeyCode = 84
@@ -31,10 +34,11 @@ public:
     resetKeyCode = 89
 )d";
 
-    int64_t configWindowX;
-    int64_t configWindowY;
-    int64_t configToggleKeyCode;
-    int64_t configResetKeyCode;
+    int32_t configWindowX;
+    int32_t configWindowY;
+    float_t configWindowScale;
+    int32_t configToggleKeyCode;
+    int32_t configResetKeyCode;
 
     void init() {
 
@@ -48,10 +52,11 @@ public:
 
         }
 
-        ini.GetIntValue("window", "x", configWindowX, 10);
-        ini.GetIntValue("window", "y", configWindowY, 10);
-        ini.GetIntValue("key", "toggleKeyCode", configToggleKeyCode, 84);
-        ini.GetIntValue("key", "resetKeyCode", configResetKeyCode, 89);
+        ini.GetInt32Value("window", "x", configWindowX, 10);
+        ini.GetInt32Value("window", "y", configWindowY, 10);
+        ini.GetFloatValue("window", "scale", configWindowScale, 1);
+        ini.GetInt32Value("key", "toggleKeyCode", configToggleKeyCode, 84);
+        ini.GetInt32Value("key", "resetKeyCode", configResetKeyCode, 89);
 
     }
 

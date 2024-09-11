@@ -12,10 +12,14 @@ int main() {
 
     Msg msg;
 
-    initgraph(200, 150);
+    float_t scale = ghostConfig.configWindowScale;
+
+    msg.setScale(scale);
+
+    initgraph(std::floor(200 * scale), std::floor(150 * scale));
 
     HWND hwnd = GetHWnd();
-    MoveWindow(hwnd, ghostConfig.configWindowX, ghostConfig.configWindowY, 200, 150, false);
+    MoveWindow(hwnd, ghostConfig.configWindowX, ghostConfig.configWindowY, std::floor(200 * scale), std::floor(150 * scale), false);
     LONG style = GetWindowLong(hwnd, GWL_STYLE);
     SetWindowLong(hwnd, GWL_STYLE, style & ~WS_CAPTION);  // 设置窗口为无标题栏
     SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE);  // 将窗口置顶
@@ -38,10 +42,10 @@ int main() {
             if (!tildeKeyPressed) {
                 activated = !activated;
                 if (activated) {
-                    msg.showMessage(_T("已激活"), 10, 100, 40, 0);
+                    msg.showMessage(_T("已激活"), 10, 100, 40, NULL, NULL, 111);
                 }
                 else {
-                    msg.showMessage(_T("未激活"), 10, 100, 40, 0);
+                    msg.showMessage(_T("未激活"), 10, 100, 40, NULL, NULL, 111);
                 }
                 tildeKeyPressed = true;
             }
@@ -88,7 +92,7 @@ int main() {
                     seconds = 0;
                     minutes = 0;
                     setfillcolor(BLACK);
-                    solidrectangle(10, 30, 100, 100); // 清除之前的时间显示
+                    solidrectangle(std::floor(10 * scale), std::floor(30 * scale), std::floor(100 * scale), std::floor(100 * scale)); // 清除之前的时间显示
                     msg.drawTimer(10, 30, minutes, seconds, 80);
                 }
             }

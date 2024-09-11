@@ -42,6 +42,16 @@ namespace Config {
             }
             value = cfg_[section][key];
         }
+        void GetInt32Value(const std::string& section, const std::string& key, int32_t& value, int32_t default_value) {
+            value = default_value;
+            if (cfg_.find(section) == cfg_.end()) {
+                return;
+            }
+            if (cfg_[section].find(key) == cfg_[section].end()) {
+                return;
+            }
+            value = atol(cfg_[section][key].c_str());
+        }
         void GetIntValue(const std::string& section, const std::string& key, int64_t& value, int64_t default_value) {
             value = default_value;
             if (cfg_.find(section) == cfg_.end()) {
@@ -51,6 +61,16 @@ namespace Config {
                 return;
             }
             value = atol(cfg_[section][key].c_str());
+        }
+        void GetFloatValue(const std::string& section, const std::string& key, float_t& value, float_t default_value) {
+            value = default_value;
+            if (cfg_.find(section) == cfg_.end()) {
+                return;
+            }
+            if (cfg_[section].find(key) == cfg_[section].end()) {
+                return;
+            }
+            value = std::stof(cfg_[section][key].c_str());
         }
         void set(std::string& section, std::string& key, std::string& value) {
             if (cfg_.find(section) == cfg_.end()) {
