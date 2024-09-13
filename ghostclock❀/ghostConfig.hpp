@@ -1,4 +1,3 @@
-
 #include <fstream>
 #include <locale.h>
 #include <string>
@@ -15,22 +14,22 @@ public:
     Config::Ini ini;
     string configFilePath = "./config.ini";
 
-    string defaultConfig = R"d(# ɾ�����ļ�����������Ĭ������
+    string defaultConfig = R"d(# 删除本文件可重新生成默认配置
 [window]
-    # ����һ�еȺź�����д���򴰿�λ��
+    # 在下一行等号后面填写横向窗口位置
     x = 10
 
-    # ����һ�еȺź�����д���򴰿�λ��
+    # 在下一行等号后面填写纵向窗口位置
     y = 10
 
-    # ����һ�еȺź�����д����0��������С������1����Ĭ�ϴ��ڴ�С��0.5��ʾ���崰�ں�������Сһ�룬2��ʾ������С
+    # 在下一行等号后面填写大于0的整数或小数，如1表是默认窗口大小，0.5表示整体窗口和字体缩小一半，2表示两倍大小
     scale = 1
 
 [key]
-    # ����һ�еȺź�����д�������ASCII��
+    # 在下一行等号后面填写激活按键的ASCII码
     toggleKeyCode = 84
 
-    # ����һ�еȺź�����д���ð�����ASCII��
+    # 在下一行等号后面填写重置按键的ASCII码
     resetKeyCode = 89
 )d";
 
@@ -43,11 +42,11 @@ public:
     void init() {
 
         if (not ini.Load(configFilePath)) {
-            // δ�ҵ��ļ�ʱ��������Ĭ�������ļ�
+            // 未找到文件时重新生成默认配置文件
             resetConfigFile();
 
             if (not ini.Load(configFilePath)) {
-                throw "�޷���ȡĬ��config.ini�ļ�";
+                throw "无法读取默认config.ini文件";
             }
 
         }
@@ -71,7 +70,7 @@ public:
         wofstream writeDefaultConfig(configFilePath);
 
         if (!writeDefaultConfig) {
-            throw "�޷�д��config.ini�ļ�";
+            throw "无法写入config.ini文件";
         }
 
         int wDefaultConfigSize = MultiByteToWideChar(CP_ACP, 0, defaultConfig.c_str(), -1, NULL, 0);

@@ -1,3 +1,4 @@
+#include <chrono>
 #include <ctime>
 #include <graphics.h>
 #include <thread>
@@ -9,8 +10,8 @@ class Msg
 {
 public:
     float scale = 1;
-    const TCHAR* lastMessage; // œ˚œ¢ƒ⁄»›
-    time_t lastSendTime = 0; // ∑¢ÀÕ ±º‰ £®10ŒªUNIX ±º‰¥¡£©
+    const TCHAR* lastMessage; // Ê∂àÊÅØÂÜÖÂÆπ
+    time_t lastSendTime = 0; // ÂèëÈÄÅÊó∂Èó¥ Ôºà10‰ΩçUNIXÊó∂Èó¥Êà≥Ôºâ
     int lastX;
     int lastY;
     int lastFontHeight;
@@ -18,6 +19,16 @@ public:
     int lastCleanHeight;
     int lastCleanWidth;
     Timer* lastMessageTimer;
+
+    int ceilWithScale(int number)
+    {
+        return std::ceil(number * scale);
+    }
+
+    int floorWithScale(int number)
+    {
+        return std::floor(number * scale);
+    }
 
     void setScale(float s)
     {
@@ -43,23 +54,23 @@ public:
             scale = 1;
         }
         else {
-            x = std::floor(x * scale);
-            y = std::floor(y * scale);
-            fontHeight = std::floor(fontHeight * scale);
-            fontWidth = std::floor(fontWidth * scale);
-            cleanHeight = std::floor(cleanHeight * scale);
-            cleanWidth = std::floor(cleanWidth * scale);
+            x = floorWithScale(x);
+            y = floorWithScale(y);
+            fontHeight = floorWithScale(fontHeight);
+            fontWidth = floorWithScale(fontWidth);
+            cleanHeight = ceilWithScale(cleanHeight);
+            cleanWidth = ceilWithScale(cleanWidth);
         }
 
-        // µ±–¬œ˚œ¢¥´»Î ±œ˙ªŸæ…œ˚œ¢
+        // ÂΩìÊñ∞Ê∂àÊÅØ‰º†ÂÖ•Êó∂ÈîÄÊØÅÊóßÊ∂àÊÅØ
         time_t now = time(0);
-        // ºÏ≤È …œ¥Œ∑¢ÀÕ ±º‰  «∑Ò>1s
+        // Ê£ÄÊü• ‰∏äÊ¨°ÂèëÈÄÅÊó∂Èó¥ ÊòØÂê¶>1s
         if ((lastSendTime > 0) && (lastSendTime + 1 < now)) {
             cleanDraw(lastX, lastY, lastX + lastCleanWidth, lastY + lastCleanHeight);
-            // ºÏ≤È∂® ±∆˜ »Áπ˚”–∂® ±∆˜‘ÚÕ£÷π∂® ±∆˜≤¢¡¢º¥œ˙ªŸ…œ¥Œœ˚œ¢
+            // Ê£ÄÊü•ÂÆöÊó∂Âô® Â¶ÇÊûúÊúâÂÆöÊó∂Âô®ÂàôÂÅúÊ≠¢ÂÆöÊó∂Âô®Âπ∂Á´ãÂç≥ÈîÄÊØÅ‰∏äÊ¨°Ê∂àÊÅØ
             if (lastMessageTimer->status == lastMessageTimer->TIMER_START) {
                 lastMessageTimer->stop();
-                // TODO À‰»ª≤ª÷™µ¿ ≤√¥BUG£¨µ´ «÷ÿ–¬new“ª∏ˆTimer÷Æ∫ÛæÕΩ‚æˆ¡À∏ˆ∆Êπ÷µƒŒ Ã‚
+                // TODO ËôΩÁÑ∂‰∏çÁü•ÈÅì‰ªÄ‰πàBUGÔºå‰ΩÜÊòØÈáçÊñ∞new‰∏Ä‰∏™Timer‰πãÂêéÂ∞±Ëß£ÂÜ≥‰∫Ü‰∏™Â•áÊÄ™ÁöÑÈóÆÈ¢ò
                 lastMessageTimer = new Timer;
             }
         }
@@ -68,7 +79,7 @@ public:
         settextstyle(fontHeight, fontWidth, _T("Consolas"));
         settextcolor(LIGHTCYAN);
         outtextxy(x, y, message);
-        // …Ë÷√∂® ±∆˜ 1s ∫Ûœ˙ªŸ
+        // ËÆæÁΩÆÂÆöÊó∂Âô® 1s ÂêéÈîÄÊØÅ
         lastMessageTimer->start(1, [=]() {
             cleanDraw(x, y, x + cleanWidth, y + cleanHeight);
             });
@@ -85,17 +96,17 @@ public:
     }
 
     void drawTimer(int x, int y, int minutes, int seconds, int size) {
-        settextstyle(std::floor(size * scale), 0, _T("Consolas"));
+        settextstyle(floorWithScale(size), 0, _T("Consolas"));
         setbkcolor(BLACK);
         settextcolor(LIGHTCYAN);
         _TCHAR str[16];
         _stprintf_s(str, _T("%02d:%02d"), minutes, seconds);
-        outtextxy(std::floor(x * scale), std::floor(y * scale), str);
+        outtextxy(floorWithScale(x), floorWithScale(y), str);
     }
 
     void cleanDraw(int x, int y, int width, int height) {
         setfillcolor(BLACK);
-        solidrectangle(x, y, width, height);  // «Â≥˝Ã· æ–≈œ¢
+        solidrectangle(x, y, width, height);  // Ê∏ÖÈô§ÊèêÁ§∫‰ø°ÊÅØ
     }
 
     void cleanMessage(int x, int y, int nHeight, int nWidth, int delay) {

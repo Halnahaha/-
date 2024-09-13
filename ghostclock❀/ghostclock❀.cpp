@@ -1,8 +1,8 @@
-﻿#include "ghostConfig.hpp"
+#include <chrono>
+#include <thread>
+#include "ghostConfig.hpp"
 #include "msg.hpp"
 using namespace std;
-
-
 
 int main() {
 
@@ -12,14 +12,12 @@ int main() {
 
     Msg msg;
 
-    float_t scale = ghostConfig.configWindowScale;
+    msg.setScale(ghostConfig.configWindowScale);
 
-    msg.setScale(scale);
-
-    initgraph(std::floor(200 * scale), std::floor(150 * scale));
+    initgraph(msg.ceilWithScale(200), msg.ceilWithScale(150));
 
     HWND hwnd = GetHWnd();
-    MoveWindow(hwnd, ghostConfig.configWindowX, ghostConfig.configWindowY, std::floor(200 * scale), std::floor(150 * scale), false);
+    MoveWindow(hwnd, ghostConfig.configWindowX, ghostConfig.configWindowY, msg.ceilWithScale(200), msg.ceilWithScale(150), true);
     LONG style = GetWindowLong(hwnd, GWL_STYLE);
     SetWindowLong(hwnd, GWL_STYLE, style & ~WS_CAPTION);  // 设置窗口为无标题栏
     SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE);  // 将窗口置顶
@@ -91,15 +89,18 @@ int main() {
                     msg.showMessage(_T("到三分钟"), 10, 110, 40, 0);
                     seconds = 0;
                     minutes = 0;
-                    setfillcolor(BLACK);
-                    solidrectangle(std::floor(10 * scale), std::floor(30 * scale), std::floor(100 * scale), std::floor(100 * scale)); // 清除之前的时间显示
-                    msg.drawTimer(10, 30, minutes, seconds, 80);
+                    
+                    // 到时间后重置是因为之前到时间后会出现一个额外的小时间的BUG，该BUG未复现所以暂时禁用看看
+                    //setfillcolor(BLACK);
+                    //solidrectangle(msg.ceilWithScale(10), msg.ceilWithScale(30), msg.ceilWithScale(100), msg.ceilWithScale(100)); // 清除之前的时间显示
+                    //msg.drawTimer(10, 30, minutes, seconds, 80);
+
                 }
             }
         }
 
         // 修复无限循环导致的性能问题
-        Sleep(8);
+        std::this_thread::sleep_for(std::chrono::milliseconds(8));
     }
 
     closegraph();
